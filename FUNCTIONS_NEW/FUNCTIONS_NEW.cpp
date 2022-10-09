@@ -1,4 +1,4 @@
-#pragma warning(disable:4326)
+ï»¿#pragma warning(disable:4326)
 #include <iostream>
 
 const int ROWS = 3;
@@ -52,16 +52,16 @@ void main()
 
 	FillRand(arr, n);
 	Print(arr, n);
-	std::cout << "Ñóììà âñåõ ıëåìåğíòîâ ìàññèâà ğàâíà: " << Sum(arr, n) << std::endl;
-	std::cout << "Ñğåäíåå àğèôìåòè÷åñêîå: " << Avg(arr, n) << std::endl;
-	std::cout << "Ìèíèìàëüíîå çíà÷åíèå: " << minValueIn(arr, n) << std::endl;
-	std::cout << "Ìàêñèìàëüíîå çíà÷åíèå: " << maxValueIn(arr, n) << std::endl;
+	std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ° Ğ²ÑĞµÑ… ÑĞ»ĞµĞ¼ĞµÑ€Ğ½Ñ‚Ğ¾Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ° Ñ€Ğ°Ğ²Ğ½Ğ°: " << Sum(arr, n) << std::endl;
+	std::cout << "Ğ¡Ñ€ĞµĞ´Ğ½ĞµĞµ Ğ°Ñ€Ğ¸Ñ„Ğ¼ĞµÑ‚Ğ¸Ñ‡ĞµÑĞºĞ¾Ğµ: " << Avg(arr, n) << std::endl;
+	std::cout << "ĞœĞ¸Ğ½Ğ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ: " << minValueIn(arr, n) << std::endl;
+	std::cout << "ĞœĞ°ĞºÑĞ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ: " << maxValueIn(arr, n) << std::endl;
 	/*Sort(arr, n);
 	Print(arr, n);
-	std::cout << "Ââåäèòå êîë-âî ñäâèãîâ: "; std::cin >> indent;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»-Ğ²Ğ¾ ÑĞ´Ğ²Ğ¸Ğ³Ğ¾Ğ²: "; std::cin >> indent;
 	shiftLeft(arr, n, indent);
 	Print(arr, n);
-	std::cout << "Ââåäèòå êîë-âî ñäâèãîâ: "; std::cin >> indent;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»-Ğ²Ğ¾ ÑĞ´Ğ²Ğ¸Ğ³Ğ¾Ğ²: "; std::cin >> indent;
 	shiftRight(arr, n, indent);
 	Print(arr, n);*/
 	
